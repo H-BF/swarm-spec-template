@@ -1,0 +1,14 @@
+teleport/spec.json
+.terraform.lock.hcl
+.terraform/*
+states/*
+
+spec/example/example/test
+spec/example/example/k8s_hosts
+spec/example/example/hosts_new2
+spec/example/example/6
+
+*.pcap
+*.parse
+export.sh
+.vscode
