@@ -1,0 +1,28 @@
+---
+name: sg-example
+cidrs:
+  - 10.0.0.0/24
+  - 11.0.0.0/24
+
+default_rules:
+  access:
+    default:
+      logs: true
+      trace: true
+      action: ACCEPT
+
+    icmp:
+      logs: true
+      trace: true
+      type:
+        - 0
+        - 8
+
+    icmp6:
+      logs: true
+      trace: true
+      type:
+        - 0
+        - 8
+
+rules: {}
